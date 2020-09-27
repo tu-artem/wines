@@ -2,3 +2,4 @@ logs.txt
 .pytest_cache
 __pycache__
 .vscode
+data/

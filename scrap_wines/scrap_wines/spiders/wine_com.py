@@ -2,8 +2,8 @@ import scrapy
 from ..items import ScrapWinesItem
 
 
-class WinesComSpider(scrapy.Spider):
-    name = 'wines_com'
+class WineComSpider(scrapy.Spider):
+    name = 'wine_com'
     allowed_domains = ['wine.com']
     start_urls = [
         'https://www.wine.com/list/wine/7155?pricemax=200&ratingmin=98',  # test subset
